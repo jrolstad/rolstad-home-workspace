@@ -1,0 +1,60 @@
+[submodule "repos/agent-definitions"]
+	path = repos/agent-definitions
+	url = https://github.com/jrolstad/agent-definitions.git
+[submodule "repos/atlassian-insights"]
+	path = repos/atlassian-insights
+	url = https://github.com/jrolstad/atlassian-insights.git
+[submodule "repos/becu-mcp"]
+	path = repos/becu-mcp
+	url = https://github.com/jrolstad/becu-mcp.git
+[submodule "repos/blog-monitor"]
+	path = repos/blog-monitor
+	url = https://github.com/jrolstad/blog-monitor.git
+[submodule "repos/dependency-analyzer"]
+	path = repos/dependency-analyzer
+	url = https://github.com/jrolstad/dependency-analyzer.git
+[submodule "repos/engineering-machine-infra"]
+	path = repos/engineering-machine-infra
+	url = https://github.com/jrolstad/engineering-machine-infra.git
+[submodule "repos/heritagebanknw-mcp"]
+	path = repos/heritagebanknw-mcp
+	url = https://github.com/jrolstad/heritagebanknw-mcp.git
+[submodule "repos/log-analytics-platform"]
+	path = repos/log-analytics-platform
+	url = https://github.com/jrolstad/log-analytics-platform.git
+[submodule "repos/oci-log-analyzer"]
+	path = repos/oci-log-analyzer
+	url = https://github.com/jrolstad/oci-log-analyzer.git
+[submodule "repos/oci-resource-manager"]
+	path = repos/oci-resource-manager
+	url = https://github.com/jrolstad/oci-resource-manager.git
+[submodule "repos/rag-design"]
+	path = repos/rag-design
+	url = https://github.com/jrolstad/rag-design.git
+[submodule "repos/recipebook-core"]
+	path = repos/recipebook-core
+	url = https://github.com/jrolstad/recipebook-core.git
+[submodule "repos/rolstad-home-skills"]
+	path = repos/rolstad-home-skills
+	url = https://github.com/jrolstad/rolstad-home-skills.git
+[submodule "repos/rolstad-landing"]
+	path = repos/rolstad-landing
+	url = https://github.com/jrolstad/rolstad-landing.git
+[submodule "repos/team-shredder"]
+	path = repos/team-shredder
+	url = https://github.com/jrolstad/team-shredder.git
+[submodule "repos/thermostat-insights"]
+	path = repos/thermostat-insights
+	url = https://github.com/jrolstad/thermostat-insights.git
+[submodule "repos/usps-mcp"]
+	path = repos/usps-mcp
+	url = https://github.com/jrolstad/usps-mcp.git
+[submodule "repos/washingtonfirst"]
+	path = repos/washingtonfirst
+	url = https://github.com/jrolstad/washingtonfirst.git
+[submodule "repos/watch-dog-manager"]
+	path = repos/watch-dog-manager
+	url = https://github.com/jrolstad/watch-dog-manager.git
+[submodule "repos/weather-insights"]
+	path = repos/weather-insights
+	url = https://github.com/jrolstad/weather-insights.git
