@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Claude Code — local skill junctions (machine-specific, recreate per README in CLAUDE.md)
+.claude/skills/

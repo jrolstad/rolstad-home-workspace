@@ -5,9 +5,25 @@ This is a personal monorepo workspace containing multiple repositories as git su
 ## Project Structure
 
 - `repos/` - Git submodules for individual repositories
+- `.claude/skills/` - Junctions to skills in `repos/rolstad-home-skills` (auto-loaded by Claude Code)
 - `work/` - Task tracking (todo, doing, done)
 - `solutions/` - Solutions and experiments
 - `research_reports/` - Research and analysis outputs
+
+## Skills
+
+Skills from `repos/rolstad-home-skills` are auto-loaded via directory junctions in `.claude/skills/`. On a fresh clone, recreate them with:
+
+```powershell
+$skillsBase = "$(pwd)\repos\rolstad-home-skills\.claude\skills"
+$target = "$(pwd)\.claude\skills"
+New-Item -ItemType Directory -Path $target -Force | Out-Null
+Get-ChildItem $skillsBase -Directory | ForEach-Object {
+    New-Item -ItemType Junction -Path (Join-Path $target $_.Name) -Target $_.FullName -Force | Out-Null
+}
+```
+
+Available skills: `/finance-check`, `/mail-check`, `/morning-report`, `/weather-check`, `/hawk-highlighter`, `/calendar-check`, `/canvas-inquisitor`, `/resume-builder`, `/gmail-check`, `/meal-check`
 
 ## Conventions
 
