@@ -11,12 +11,8 @@ The following skills exist in `rolstad-home-skills` and are candidates for the d
 | `canvas-inquisitor` | Grade report for all observed Canvas students | ✅ Include |
 | `mail-check` | USPS mail pieces and packages | ✅ Include |
 | `weather-check` | 3-day NWS forecast for Brier, WA | ✅ Include |
-| `hawk-highlighter` | Diff of two most recent Hawk Highlights newsletters | Optional — only relevant when new issue arrives |
-| `morning-report` | Combined finances, mail, packages, weather, Gmail inbox, calendar, and meal plan | ⏸ Excluded for now |
-| `finance-check` | Account balances and recent transactions | ⏸ Excluded for now |
-| `resume-builder` | Resume tailoring and cover letter generation | ❌ Interactive only, not suitable for scheduled run |
 
-**Recommendation:** Run `mail-check` + `weather-check` + `canvas-inquisitor` daily. Add `hawk-highlighter` conditionally if a new newsletter has arrived.
+**Recommendation:** Run `mail-check` + `weather-check` + `canvas-inquisitor` daily. conditionally if a new newsletter has arrived.
 
 ## Requirements
 
