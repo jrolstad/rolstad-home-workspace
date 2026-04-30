@@ -4,15 +4,18 @@ Create a scheduled process that runs daily, invokes Claude Code with the relevan
 
 ## Skills to Include
 
-The following skills exist in `rolstad-home-skills` and are candidates for the daily briefing:
-
-| Skill | Description | Include? |
-|-------|-------------|----------|
-| `canvas-inquisitor` | Grade report for all observed Canvas students | ✅ Include |
-| `mail-check` | USPS mail pieces and packages | ✅ Include |
-| `weather-check` | 3-day NWS forecast for Brier, WA | ✅ Include |
-
-**Recommendation:** Run `mail-check` + `weather-check` + `canvas-inquisitor` daily. conditionally if a new newsletter has arrived.
+| Skill | Description | Include? | Notes |
+|-------|-------------|----------|-------|
+| `mail-check` | USPS mail pieces and packages | ❌ Excluded | Requires interactive login |
+| `weather-check` | 3-day NWS forecast for Brier, WA | ✅ Always | |
+| `calendar-check` | Upcoming events for the next 7 days | ✅ Always | |
+| `gmail-check` | Gmail inbox grouped by theme | ✅ Always | |
+| `meal-check` | Weekly dinner plan from Google Drive | ✅ Always | |
+| `canvas-inquisitor` | Grade report for all observed Canvas students | ✅ Always | |
+| `hawk-highlighter` | MTHS Hawk Highlights newsletter diff | ✅ Conditional | Only runs when a new issue has arrived since last run |
+| `finance-check` | Account balances across BECU and Heritage Bank NW | ❌ Excluded | Requires interactive login |
+| `morning-report` | Bundle skill covering finance/mail/weather/calendar/gmail/meals | ❌ Excluded | Using individual skills instead |
+| `resume-builder` | Resume tailoring and cover letter generation | ❌ Excluded | Not a daily briefing skill |
 
 ## Requirements
 
@@ -26,7 +29,6 @@ The following skills exist in `rolstad-home-skills` and are candidates for the d
 
 - Where does the process run? (local machine via Task Scheduler, home server, cloud function, GitHub Actions, etc.)
 - Does Claude Code CLI support non-interactive / headless execution of skills?
-- Should each skill run independently and output be combined, or run as a single morning-report-style session?
+- Should each skill run independently and output be combined, or run as a single session?
 - Delivery mechanism: email (Gmail MCP), push notification, or other?
-- `morning-report` already covers Gmail, calendar, mail, weather, and meals — should the daily run just be `morning-report` + `canvas-inquisitor`?
-- Does `hawk-highlighter` run conditionally (only when a new issue exists) or always?
+- How does hawk-highlighter detect "new issue since last run"? Needs a state file or last-seen timestamp.
