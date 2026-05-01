@@ -58,3 +58,6 @@
 [submodule "repos/weather-insights"]
 	path = repos/weather-insights
 	url = https://github.com/jrolstad/weather-insights.git
+[submodule "repos/ambientweather-api-helper"]
+	path = repos/ambientweather-api-helper
+	url = https://github.com/jrolstad/ambientweather-api-helper.git
