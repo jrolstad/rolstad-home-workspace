@@ -61,3 +61,6 @@
 [submodule "repos/ambientweather-api-helper"]
 	path = repos/ambientweather-api-helper
 	url = https://github.com/jrolstad/ambientweather-api-helper.git
+[submodule "repos/ambient-mcp"]
+	path = repos/ambient-mcp
+	url = https://github.com/jrolstad/ambient-mcp.git
