@@ -67,3 +67,6 @@
 [submodule "repos/mysa-mcp"]
 	path = repos/mysa-mcp
 	url = https://github.com/jrolstad/mysa-mcp.git
+[submodule "repos/ecobee-mcp"]
+	path = repos/ecobee-mcp
+	url = https://github.com/jrolstad/ecobee-mcp.git
