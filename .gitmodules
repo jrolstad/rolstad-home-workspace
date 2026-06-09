@@ -64,3 +64,6 @@
 [submodule "repos/ambient-mcp"]
 	path = repos/ambient-mcp
 	url = https://github.com/jrolstad/ambient-mcp.git
+[submodule "repos/mysa-mcp"]
+	path = repos/mysa-mcp
+	url = https://github.com/jrolstad/mysa-mcp.git
