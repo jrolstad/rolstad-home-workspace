@@ -23,7 +23,7 @@ Get-ChildItem $skillsBase -Directory | ForEach-Object {
 }
 ```
 
-Available skills: `/finance-check`, `/mail-check`, `/morning-report`, `/weather-check`, `/hawk-highlighter`, `/calendar-check`, `/canvas-inquisitor`, `/resume-builder`, `/gmail-check`, `/meal-check`
+Available skills: `/finance-check`, `/mail-check`, `/morning-report`, `/weather-check`, `/hawk-highlighter`, `/calendar-check`, `/canvas-inquisitor`, `/resume-builder`, `/gmail-check`, `/meal-check`, `/drive-share-audit`
 
 ## Conventions
 
