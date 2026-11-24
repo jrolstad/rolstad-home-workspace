@@ -70,3 +70,6 @@
 [submodule "repos/ecobee-mcp"]
 	path = repos/ecobee-mcp
 	url = https://github.com/jrolstad/ecobee-mcp.git
+[submodule "repos/myair-mcp"]
+	path = repos/myair-mcp
+	url = https://github.com/jrolstad/myair-mcp.git
